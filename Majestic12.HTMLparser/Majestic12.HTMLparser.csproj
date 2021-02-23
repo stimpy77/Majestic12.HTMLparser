@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Majestic12</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>JonDavis.Majestic12.HTMLparser</PackageId>
+    <Authors>Alex Chudnovsky</Authors>
+    <Company>Majestic12</Company>
+    <Product>Majestic12.HTMLparser</Product>
+    <Description>This is a .NET Standard 2.0 port of Majetic12.HTMLparser v3.14
+Original source: https://www.majestic12.co.uk/projects/html_parser.php</Description>
+    <Copyright>Alex Chudnovsky</Copyright>
+    <PackageLicenseUrl>https://github.com/stimpy77/Majestic12.HTMLparser/blob/main/HTMLparser.cs</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/stimpy77/Majestic12.HTMLparser</RepositoryUrl>
+    <Version>3.1.4</Version>
+    <PackageReleaseNotes>From the original author:
+
+Free .NET HTML parser (C#) is an open source high-performance .NET C# module that was created to parse HTML for links, indexing and other purposes. Full source code (~5k lines) is available under BSD license (this means you can use it in your commercial applications). This cross-platform code is verified to run very well under Mono. The parser is 100% self-contained managed code that does not depend on any external DLLs apart from core .NET libraries. We use this parser to process well over 3 TB of HTML every day.
+
+I created this module for use in Distributed Search Engine that required processing of terabytes of HTML on a daily basis, and naturally it had to be done very fast. Thus, the focus for this project was its high performance. I've spent countless hours making sure its fast, and you will be able to benchmark it on your own hardware, but Majestic-12's homepage snapshot (20 KB) is parsed as fast as under 2 ms (v1.0) 0.47 msecs (v3.0) on an Athlon x2 3800 (2 Ghz) PC (using single core, dual channel DDR 400).
+
+Current version is about 2 4 (!) times faster than the one released last year, it also supports non-English words support via encodings (see Main.cs for details) as well as Unicode characters set via entities, it should also be more suitable for XML parsing.
+
+There are NUnit tests that cover approximately 71% of code, with 91% of key TagParser.cs that deals with tag parsing - you can help by adding to existing tests, best to use TestDriven.NET as they allow to easily test tests and see how much of the code is covered by those tests.
+
+I would be very interested to know how this module compares to others, so if you made some testing then please email me the results. Also it would be nice to get a few NUnit test cases for automated testing as it is very easy to break parser in a subtle way that won't be immediately apparent.
+
+Finally, if you manage to squeeze more speed out of it, then it would be nice for you to share the changes with me, this would help you too, because I am certainly going to try to make it faster than it is now, so if you share your changes it would mean you won't have to merge my changes into yours.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>

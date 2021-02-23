@@ -1,2 +1,2 @@
 # Majestic12.HTMLparser
-.NET Standard 2.1 port of Majetic12.HTMLparser v3.14
+.NET Standard 2.0 port of Majetic12.HTMLparser v3.14
