@@ -8,12 +8,12 @@
     <Authors>Alex Chudnovsky</Authors>
     <Company>Majestic12</Company>
     <Product>Majestic12.HTMLparser</Product>
-    <Description>This is a .NET Standard 2.0 port of Majetic12.HTMLparser v3.14
+    <Description>This is a .NET Standard 2.0 port of Majetic12.HTMLparser v3.1.4
 Original source: https://www.majestic12.co.uk/projects/html_parser.php</Description>
     <Copyright>Alex Chudnovsky</Copyright>
     <PackageLicenseUrl>https://github.com/stimpy77/Majestic12.HTMLparser/blob/main/HTMLparser.cs</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/stimpy77/Majestic12.HTMLparser</RepositoryUrl>
-    <Version>3.1.4</Version>
+    <Version>3.1.4.1</Version>
     <PackageReleaseNotes>From the original author:
 
 Free .NET HTML parser (C#) is an open source high-performance .NET C# module that was created to parse HTML for links, indexing and other purposes. Full source code (~5k lines) is available under BSD license (this means you can use it in your commercial applications). This cross-platform code is verified to run very well under Mono. The parser is 100% self-contained managed code that does not depend on any external DLLs apart from core .NET libraries. We use this parser to process well over 3 TB of HTML every day.
